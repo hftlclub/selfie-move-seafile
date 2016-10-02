@@ -20,7 +20,6 @@ sf.listDirEntries({
         dst_repo: config.repos.final,
         file_names: [config.srcDir],
     }, (err, body) => {
-        console.log(err, body);
         if(err) return; 
 
         // rename folder in destination
@@ -30,13 +29,13 @@ sf.listDirEntries({
             repo_id: config.repos.final,
             p: config.srcDir,
             newname: yesterday
-        }, (err, body) => {console.log(err, body);});
+        }, (err, body) => {});
 
         // create new source folder
         sf.createDirectory({
             repo_id: config.repos.sync,
             p: config.srcDir
-        }, (err, body) => {console.log(err, body);});
+        }, (err, body) => {});
     });
 
 
