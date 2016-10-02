@@ -1,3 +1,5 @@
+'use strict';
+
 var SeafileAPI = require('seafile-api');
 var moment = require('moment');
 var config = require('./config.js');
