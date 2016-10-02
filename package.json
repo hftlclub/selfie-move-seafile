@@ -1,0 +1,20 @@
+{
+  "name": "selfie-move-seafile",
+  "version": "1.0.0",
+  "description": "Moves selfies between seafile repos",
+  "main": "moveSelfies.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hftlclub/selfie-move-seafile"
+  },
+  "author": "Ferdinand Malcher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hftlclub/selfie-move-seafile/issues"
+  },
+  "homepage": "https://github.com/hftlclub/selfie-move-seafile#readme",
+  "dependencies": {
+    "moment": "^2.15.1",
+    "seafile-api": "^0.2.0"
+  }
+}
